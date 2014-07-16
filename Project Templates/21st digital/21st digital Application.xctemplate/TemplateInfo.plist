@@ -13,7 +13,7 @@
 	<key>Concrete</key>
 	<true/>
 	<key>Description</key>
-	<string>This template provides a starting point for a 21st digital application.</string>
+	<string>This template provides a starting point for a stripped down, structured and nib-less iOS application with CocoaPods and Uncrustify support.</string>
 	<key>SortOrder</key>
 	<integer>1</integer>
 	<key>Options</key>
