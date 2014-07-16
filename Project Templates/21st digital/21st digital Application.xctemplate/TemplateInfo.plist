@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>de.21stdigital.iosApplication</string>
+	<key>Ancestors</key>
+	<array>
+		<string>de.21stdigital.cocoaTouchApplicationBase</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>Description</key>
+	<string>This template provides a starting point for a 21st digital application.</string>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Objective-C</key>
+				<dict>
+					<key>Nodes</key>
+					<array/>
+				</dict>
+				<key>Swift</key>
+				<dict>
+					<key>Nodes</key>
+					<array/>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>useCocoaPods</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Include CocoaPods</string>
+			<key>Description</key>
+			<string>Whether the new project should include CocoaPods</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<true/>
+			<key>Units</key>
+			<dict>
+				<key>false</key>
+				<array/>
+				<key>true</key>
+				<array>
+					<dict>
+						<key>Definitions</key>
+						<dict>
+							<key>../Podfile</key>
+							<dict>
+								<key>Path</key>
+								<string>Podfile</string>
+								<key>TargetIndices</key>
+								<array/>
+								<key>Group</key>
+								<array>
+									<string>Supporting Files</string>
+								</array>
+							</dict>
+						</dict>
+						<key>Nodes</key>
+						<array>
+							<string>../Podfile</string>
+						</array>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>useUncrustify</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Include Uncrustify config file</string>
+			<key>Description</key>
+			<string>Whether the new project should include an Uncrustify config file</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<true/>
+			<key>Units</key>
+			<dict>
+				<key>false</key>
+				<array/>
+				<key>true</key>
+				<array>
+					<dict>
+						<key>Definitions</key>
+						<dict>
+							<key>../uncrustify.cfg</key>
+							<dict>
+								<key>Path</key>
+								<string>uncrustify.cfg</string>
+								<key>TargetIndices</key>
+								<array/>
+								<key>Group</key>
+								<array>
+									<string>Supporting Files</string>
+								</array>
+							</dict>
+						</dict>
+						<key>Nodes</key>
+						<array>
+							<string>../uncrustify.cfg</string>
+						</array>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>Classes/</key>
+		<dict>
+			<key>Path</key>
+			<string>Classes/</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>.gitignore</key>
+		<dict>
+			<key>Path</key>
+			<string>.gitignore</string>
+			<key>Group</key>
+			<string>Supporting Files</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>main.m</key>
+		<dict>
+			<key>Group</key>
+			<string>Supporting Files</string>
+			<key>Path</key>
+			<string>main.m</string>
+		</dict>
+	</dict>
+	<key>Nodes</key>
+	<array>
+		<string>Classes/</string>
+		<string>.gitignore</string>
+		<string>main.m</string>
+	</array>
+</dict>
+</plist>

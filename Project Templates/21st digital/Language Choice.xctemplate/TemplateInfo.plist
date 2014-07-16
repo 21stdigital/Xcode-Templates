@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>de.21stdigital.languageChoice</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Language:</string>
+			<key>Description</key>
+			<string>Your primary implementation language.</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>Objective-C</string>
+			<key>Values</key>
+			<array>
+				<string>Swift</string>
+				<string>Objective-C</string>
+			</array>
+			<key>Variables</key>
+			<dict>
+				<key>Swift</key>
+				<dict>
+					<key>ibCustomModuleProvider</key>
+					<string>target</string>
+					<key>moduleNamePrefixForClasses</key>
+					<string>${PRODUCT_MODULE_NAME}.</string>
+				</dict>
+				<key>Objective-C</key>
+				<dict>
+					<key>ibCustomModuleProvider</key>
+					<string></string>
+					<key>moduleNamePrefixForClasses</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>Units</key>
+			<dict>
+				<key>Objective-C</key>
+				<dict>
+					<key>Definitions</key>
+					<dict/>
+				</dict>
+				<key>Swift</key>
+				<dict>
+					<key>Project</key>
+					<dict>
+						<key>Configurations</key>
+						<dict>
+							<key>Debug</key>
+							<dict>
+								<key>SWIFT_OPTIMIZATION_LEVEL</key>
+								<string>-Onone</string>
+							</dict>
+						</dict>
+					</dict>
+					<key>Definitions</key>
+					<dict/>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>Definitions</key>
+	<dict/>
+</dict>
+</plist>
