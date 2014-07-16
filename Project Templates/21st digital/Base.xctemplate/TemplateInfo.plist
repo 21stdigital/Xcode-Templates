@@ -32,7 +32,7 @@
 			<key>Description</key>
 			<string>Your company&apos;s name</string>
 			<key>Type</key>
-			<string>static</string>
+			<string>text</string>
 			<key>Default</key>
 			<string>21st digital GmbH</string>
 		</dict>
