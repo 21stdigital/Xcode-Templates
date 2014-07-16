@@ -129,7 +129,7 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>.gitignore</key>
+		<key>../.gitignore</key>
 		<dict>
 			<key>Path</key>
 			<string>.gitignore</string>
@@ -149,7 +149,7 @@
 	<key>Nodes</key>
 	<array>
 		<string>Classes/</string>
-		<string>.gitignore</string>
+		<string>../.gitignore</string>
 		<string>main.m</string>
 	</array>
 </dict>
